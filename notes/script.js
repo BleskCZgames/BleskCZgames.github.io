@@ -77,4 +77,4 @@ function upravitPoznamku(poznamkaElement, text) {
 
 // Načtení uložených poznámek z úložiště (např. localStorage)
 
-zobrazitPoznamky(localStorage);
+zobrazitPoznamky();
