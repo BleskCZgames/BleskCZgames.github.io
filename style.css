@@ -2,5 +2,21 @@
     position: absolute;
     bottom: 10px;
     right: 10px;
-    border-radius: 3px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background-color: black;
+    transition: 0.4s;
+}
+
+.zakulisi:hover{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background-color: black;
+    box-shadow: 2px 2px gray;
+    transition: 0.4s;
 }
