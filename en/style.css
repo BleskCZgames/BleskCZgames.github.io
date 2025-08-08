@@ -84,3 +84,26 @@ button:hover{
     border-color: transparent;
     color: transparent;
 }
+
+.languagebtn{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    transition: 0.4s;
+}
+
+.languagebtn:hover{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background-color: #D9332E;
+    box-shadow: -3px 3px rgba(128, 128, 128, 0.574);
+    transition: 0.4s;
+    font-size: 15px;
+}
