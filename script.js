@@ -1,3 +1,3 @@
 function webalert() {
-    alert("To je tento web :D")
+    alert("Toto je ten web :D")
 }
