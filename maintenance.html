@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <title>Page unavailable</title>
+    <script>
+        window.onload = function() {
+            var userLang = navigator.language;
+            document.getElementById("lang").innerHTML = userLang;
+
+            if (userLang = "cs") {
+                window.location.href = "/cs/maintenance"
+            };
+
+            if (userLang = "en") {
+                window.location.href = "/en/maintenance"
+            }
+        }
+    </script>
+
+    <center>
 
     <head>
-
-        <center>
-
-            <h1>
-                Tato stránka je nedostupná
-            </h1>
-
-            <h3>
-                Přijďte později
-            </h3>
-
-        </center>
-
+        <H2>
+            Redirecting...
+        </H2>
+        <h3 id="lang"></h3>
     </head>
-    
+
+    </center>
 </html>

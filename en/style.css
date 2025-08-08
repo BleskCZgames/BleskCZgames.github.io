@@ -1,0 +1,86 @@
+button{
+    background-color: rgb(255, 132, 0);
+    color: white;
+    border-radius: 4px;
+    border: rgb(255, 132, 0);
+    transition: 0.4s;
+}
+
+button:hover{
+    background-color: white;
+    color: rgb(255, 132, 0);
+    font-size: 14px;
+    transition: 0.4s;
+}
+
+.ytbtn:hover{
+    background-color: red;
+    color: white;
+    border: red;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+.disbtn:hover{
+    background-color: #5866F2;
+    color: white;
+    border: #5866F2;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+.gitbtn:hover{
+    background-color: black;
+    color: white;
+    border: black;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+.replbtn:hover{
+    background-color: #EF6236;
+    color: white;
+    border: #EF6236;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+.zakulisi{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    transition: 0.4s;
+}
+
+.zakulisi:hover{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    background-color: black;
+    box-shadow: 3px 3px rgba(128, 128, 128, 0.574);
+    transition: 0.4s;
+    font-size: 15px;
+}
+
+.copyright{
+    position: relative;
+    bottom: 1px;
+    top: 30px;
+}
+
+.secretbtn{
+    background-color: transparent;
+    outline: transparent;
+    border-color: transparent;
+    color: transparent;
+}
