@@ -13,16 +13,6 @@ button:hover{
     transition: 0.4s;
 }
 
-.instabtn:hover{
-    background-color: #EC4AB7;
-    color: white;
-    border: #EC4AB7;
-    font-size: 14px;
-    border-radius: 4px;
-    transition: 0.4s;
-}
-
-
 .ytbtn:hover{
     background-color: red;
     color: white;
