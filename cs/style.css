@@ -1,3 +1,10 @@
+.body {
+    background-image: url('/assets/mainbackground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
 button{
     background-color: rgb(255, 132, 0);
     color: white;

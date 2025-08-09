@@ -8,11 +8,11 @@
     var userLang = navigator.language || navigator.userLanguage;
     document.getElementById("lang").innerHTML = userLang;
 
-    if (userLang = "en") {
+    if (userLang.includes("en")) {
         window.location.href = "/en";
     };
 
-    if (userLang = "cs") {
+    if (userLang.includes("cs")) {
         window.location.href = "/cs";
     };
     
