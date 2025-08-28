@@ -6,7 +6,18 @@
     <script>
     window.onload = function() {
     var userLang = navigator.language || navigator.userLanguage;
+    var userDevice = navigator.userAgent
     document.getElementById("lang").innerHTML = userLang;
+
+    if (userDevice.includes("Mobil")) {
+        if(userLang.includes("en")) {
+            window.location.href = "/m/en";
+        }
+
+        if(userLang.includes("cs")) {
+            window.location.href = "/m/cs";
+        }
+    }
 
     if (userLang.includes("en")) {
         window.location.href = "/en";
