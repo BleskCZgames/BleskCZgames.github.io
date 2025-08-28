@@ -1,5 +1,6 @@
 body {
-    background-image: url('/assets/mainbackground.jpg');
+    background-image: linear-gradient(to right, #FEF851, #F9CA47);
+    background-color: yellow;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
